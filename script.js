@@ -18,7 +18,7 @@ const loadDataFromLocalstorage = () => {
 
     const defaultText = `<div class="default-text">
                             <h1>Manglish AI Bot</h1>
-                            <p>Welcome To Manglish AI ChatBot<br> Developed By Ashik</p>
+                            <p>Welcome To Manglish AI ChatBot<br> Developed By Infas</p>
                             <br>
                             <p>This AI Was Under Training - Sometimes it may send wrong response.</p>
                         </div>`
@@ -109,7 +109,7 @@ const showTypingAnimation = () => {
     // Display the typing animation and call the getChatResponse function
     const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/brain.png" alt="chatbot-img" style="border-radius:50%;">
+                        <img src="brain.png" alt="chatbot-img" style="border-radius:50%;">
                         <div class="typing-animation">
                             <div class="typing-dot" style="--delay: 0.2s"></div>
                             <div class="typing-dot" style="--delay: 0.3s"></div>
@@ -146,7 +146,7 @@ const handleOutgoingChat = () => {
 
     const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/profile.png" alt="user-img" style="border-radius:50%;">
+                        <img src="profile.png" alt="user-img" style="border-radius:50%;">
                         
                         <p>${text}</p>
                         
